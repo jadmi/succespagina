@@ -7,122 +7,189 @@
     <link href="/output.css" rel="stylesheet" />
   </head>
   <body>
-    <div
-      class="grid grid-cols-1 mt-[56px] px-4 gap-[56px] md:px-12 mb-6 lg:grid-cols-2 2xl:px-32 2xl:gap-64"
-    >
-      <div class="lg:flex lg:flex-col lg:justify-center">
-        <div>
-          <h1 class="text-3xl font-bold uppercase mb-4">
-            Thank you Justin for your purchase with riverty!
-          </h1>
-          <p class="text-xl mb-8">
-            Confirmation email has been sent to justin@allrunning.nl with
-            <span class="font-bold"> order number: ANL0000766191O </span>
-            and shipping details.
-          </p>
-        </div>
+    <main>
+      <div
+        class="grid grid-cols-1 mt-[56px] px-4 gap-[56px] md:px-12 mb-6 lg:grid-cols-2 2xl:gap-0 2xl:mx-auto"
+      >
+        <div class="lg:flex lg:justify-center xl:justify-end 2xl:px-32">
+          <div class="lg:flex lg:flex-col 2xl:justify-center xl:max-w-[704px]">
+            <div>
+              <h1 class="text-3xl font-bold uppercase mb-4">
+                Thank you Justin for your purchase with riverty!
+              </h1>
+              <p class="text-xl mb-8">
+                Confirmation email has been sent to justin@allrunning.nl with
+                <span class="font-bold"> order number: ANL0000766191O </span>
+                and shipping details.
+              </p>
+            </div>
 
-        <div class="border-b border-gray-200 pb-10 mb-10">
-          <div>
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="mb-2"
-            >
-              <path
-                d="M21.2182 14V7.86663C21.2182 4.93329 18.9515 2.66663 16.0182 2.66663C13.0849 2.79996 10.8182 4.93329 10.8182 7.86663V14M27.3515 11.3333L29.3515 27.7333C29.4849 28.6666 28.5515 29.3333 27.7515 29.3333H4.28487C3.21821 29.3333 2.55154 28.5333 2.68487 27.7333L4.68487 11.3333C4.81821 10.5333 5.48487 9.99996 6.28487 9.99996H25.7515C26.6849 9.86663 27.2182 10.4 27.3515 11.3333ZM11.4849 14C11.4849 14.2666 11.2182 14.5333 10.9515 14.5333C10.6849 14.5333 10.4182 14.2666 10.4182 14C10.4182 13.7333 10.6849 13.4666 10.9515 13.4666C11.3515 13.4666 11.4849 13.7333 11.4849 14ZM21.2182 13.4666C21.4849 13.4666 21.7515 13.7333 21.7515 14C21.7515 14.2666 21.4849 14.5333 21.2182 14.5333C20.9515 14.5333 20.6849 14.2666 20.6849 14C20.6849 13.7333 20.9515 13.4666 21.2182 13.4666Z"
-                stroke="#191919"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+            <div class="md:flex md:flex-col">
+              <div class="md:grid md:grid-cols-[80px_1fr] items-start gap-4">
+                <div class="md:flex md:justify-center md:items-center">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="mb-2"
+                  >
+                    <path
+                      d="M21.2182 14V7.86663C21.2182 4.93329 18.9515 2.66663 16.0182 2.66663C13.0849 2.79996 10.8182 4.93329 10.8182 7.86663V14M27.3515 11.3333L29.3515 27.7333C29.4849 28.6666 28.5515 29.3333 27.7515 29.3333H4.28487C3.21821 29.3333 2.55154 28.5333 2.68487 27.7333L4.68487 11.3333C4.81821 10.5333 5.48487 9.99996 6.28487 9.99996H25.7515C26.6849 9.86663 27.2182 10.4 27.3515 11.3333ZM11.4849 14C11.4849 14.2666 11.2182 14.5333 10.9515 14.5333C10.6849 14.5333 10.4182 14.2666 10.4182 14C10.4182 13.7333 10.6849 13.4666 10.9515 13.4666C11.3515 13.4666 11.4849 13.7333 11.4849 14ZM21.2182 13.4666C21.4849 13.4666 21.7515 13.7333 21.7515 14C21.7515 14.2666 21.4849 14.5333 21.2182 14.5333C20.9515 14.5333 20.6849 14.2666 20.6849 14C20.6849 13.7333 20.9515 13.4666 21.2182 13.4666Z"
+                      stroke="#191919"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h2 class="font-semibold text-lg mb-1">
+                    Faster checkout on your next visit?
+                  </h2>
+                  <p class="mb-6">
+                    Create your own All4running account to order in seconds and
+                    get insight into your order history.
+                  </p>
+                  <button
+                    type="button"
+                    class="flex w-full h-12 px-4 justify-center items-center text-white bg-[#f60] mt-4 max-w-60"
+                  >
+                    Create account
+                  </button>
+                </div>
+                <div class="md:col-span-2 border-t border-gray-300 my-8"></div>
+                <div class="flex items-center md:justify-center md:gap-4 mb-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    viewBox="0 0 90 56"
+                    width="64"
+                    height="40"
+                  >
+                    <path d="M0 0v56h90V0z" style="fill: #527a42" />
+                    <path
+                      d="M83.5 23.8h-2.3L79 26.7l-2.2-2.9h-2.4l3.5 4.6v3.8H80v-3.8zm-14.6 1.7H72v-1.7h-8.2v1.7h3.1v6.8h1.9v-6.8zm-8.2 6.7L58.4 29c1.2-.3 1.8-1.2 1.8-2.5 0-1.7-1.1-2.7-3-2.7h-5v8.4h1.9v-3.1h2.1l2.1 3.1zm-2.4-5.7c0 .7-.4 1-1.2 1h-2.9v-2H57c.9 0 1.3.3 1.3 1m-19 5.7h7.6v-1.7h-5.7v-1.7h4.9v-1.7h-4.9v-1.7h5.7v-1.7h-7.6zm-7.6 0 3.5-8.4h-2L30.8 30l-2.5-6.2h-2.1l3.5 8.4zm-11.5 0h1.9v-8.4h-1.9zm-9.8 0v-6.5H8.5v6.5zm0-6.5h6.5v-1.9h-6.5z"
+                      style="fill: #e7e4e2"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-lg">
+                    Easily keep track with Riverty
+                  </h3>
+                  <p>
+                    Download our <span class="font-bold">"Riverty” </span> app
+                    on your mobile phone or visit
+                    <span class="font-bold underline">MyRiverty</span> on our
+                    website in your browser to find out the easiest way to keep
+                    track of outstanding payments, pause payments for returns or
+                    keep track and many more options.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="2xl:px-32">
+          <div class="md:flex md:flex-row gap-4 lg:flex-col xl:max-w-[704px]">
+            <div class="bg-[#F7F7F7] p-8 mb-4 h-fit flex-1">
+              <img
+                src="logo.png"
+                class="mb-6"
+                alt="enjoy your profit logo"
+                aria-hidden="true"
               />
-            </svg>
-          </div>
-          <div>
-            <h2 class="font-semibold text-lg mb-1">
-              Faster checkout on your next visit?
-            </h2>
-            <p class="mb-6">
-              Create your own All4running account to order in seconds and get
-              insight into your order history.
-            </p>
-            <button
-              class="flex w-full h-12 px-4 justify-center items-center text-white bg-[#f60] mt-4 max-w-[340px] md:max-w-60"
-            >
-              Create account
-            </button>
-          </div>
-        </div>
-        <div>
-          <svg
-            width="64"
-            height="40"
-            viewBox="0 0 51 7"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="bg-[#527A42] pl-1 pr-1 mb-2"
-          >
-            <path
-              d="M51 0.00246207L48.5961 3.23639V5.86711H47.2734V3.23639L44.8695 0.00246207H46.509L47.9718 1.99458L49.4235 0.00246207H51ZM37.6134 0.00246207V1.16056H39.7326V5.86957H41.0439V1.1581H43.1607V0L37.6134 0.00246207ZM31.0548 1.16056H33.0054C33.5853 1.16056 33.8547 1.38491 33.8547 1.85917C33.8547 2.33312 33.5853 2.55717 33.0054 2.55717H31.0548V1.16025V1.16056ZM35.469 5.86957L33.9633 3.60939C34.77 3.38534 35.1909 2.79045 35.1909 1.85886C35.1909 0.651217 34.4763 0.00492414 33.1482 0.00492414H29.7432V5.86957H31.0548V3.71034H32.5005L33.9216 5.86711L35.469 5.86957ZM20.9535 0.00492414V5.86957H26.1234V4.71148H22.2669V3.49521H25.581V2.33712H22.2669V1.1584H26.1258V0L20.9535 0.00492414ZM16.8405 0.00492414L15.1536 4.34063L13.455 0.00338534H12.0324L14.4453 5.86803H15.7902L18.2034 0.00307759L16.8405 0.00461638V0.00492414ZM7.9539 5.86711H9.2649V0.00246207H7.9539V5.86711ZM0 5.86711H1.311V1.34675H0V5.86711ZM1.311 1.34767H5.7168V0.00153879H1.311V1.34798V1.34767Z"
-              fill="white"
-            />
-          </svg>
-          <divs>
-            <h3 class="font-semibold text-lg">
-              Easily keep track with Riverty
-            </h3>
-            <p>
-              Download our <span class="font-bold">"Riverty” </span> app on your
-              mobile phone or visit
-              <span class="font-bold underline">MyRiverty</span> on our website
-              in your browser to find out the easiest way to keep track of
-              outstanding payments, pause payments for returns or keep track and
-              many more options.
-            </p>
-          </divs>
-        </div>
-      </div>
-      <div class="lg:flex-col">
-        <div class="bg-[#F7F7F7] p-8 mb-4 h-fit flex-1">
-          <img src="logo.png" class="mb-6" />
-          <h4 class="font-semibold text-lg">
-            Ontvang nu €15 cashback op je aankoop bij All4running.
-          </h4>
-          <p class="mb-4 mt-2">
-            Profiteer daarnaast van kortingen bij tientallen winkels.
-          </p>
+              <h4 class="font-semibold text-lg">
+                Ontvang nu €15 cashback op je aankoop bij All4running.
+              </h4>
+              <p class="mb-4 mt-2">
+                Profiteer daarnaast van kortingen bij tientallen winkels.
+              </p>
 
-          <p>
-            <span class="underline">Lees hier</span> de algemene voorwaarden
-            over het abonnement van Enjoy Your Profit. Na 30 dagen betaal je
-            slechts €15 per maand.
-          </p>
-          <button
-            class="flex h-12 px-4 justify-center items-center text-white bg-[#333] mt-4"
-          >
-            Start gratis proefperiode
-          </button>
-        </div>
-        <div
-          class="bg-[#F7F7F7] flex flex-col gap-4 p-8 w-fit justify-center align flex-1"
-        >
-          <img src="africa.png" class="items-stretch" />
-          <img src="shoeafrica.png " class="w-fit" />
-          <h5 class="text-lg font-semibold">
-            Wij doneren €1,- van elke aankoop
-          </h5>
-          <p class="-mt-2">
-            Shoe4Africa is een organisatie die zich inzet voor het verbeteren
-            van de levensomstandigheden van kinderen in Afrika. Ze verzamelen en
-            distribueren sportschoenen aan kinderen in nood, zodat ze kunnen
-            sporten en spelen.
-          </p>
-          <a class="underline">Lees meer</a>
+              <p>
+                <a
+                  class="underline"
+                  href="all4running.nl"
+                  aria-label="lees meer over enjoy your profit"
+                  >Lees hier</a
+                >
+                de algemene voorwaarden over het abonnement van Enjoy Your
+                Profit. Na 30 dagen betaal je slechts €15 per maand.
+              </p>
+              <button
+                type="button"
+                class="flex h-12 px-4 justify-center items-center text-white bg-[#333] mt-4"
+              >
+                Start gratis proefperiode
+              </button>
+            </div>
+            <div
+              class="bg-[#F7F7F7] flex flex-col gap-4 p-8 w-fit justify-center flex-1 max-w-[704px]"
+            >
+              <img
+                src="thumbnail.jpg"
+                class="items-stretch"
+                alt="shoe4africa video thumbnail"
+              />
+              <img
+                src="shoeafrica.png "
+                class="w-fit"
+                alt="shoe4africa logo"
+                aria-hidden="true"
+              />
+              <div>
+                <h5 class="text-lg font-semibold mb-2">
+                  Wij doneren €1,- van elke aankoop
+                </h5>
+                <p>
+                  Shoe4Africa is een organisatie die zich inzet voor het
+                  verbeteren van de levensomstandigheden van kinderen in Afrika.
+                  Ze verzamelen en distribueren sportschoenen aan kinderen in
+                  nood, zodat ze kunnen sporten en spelen.
+                </p>
+              </div>
+              <div class="flex flex-row items-center gap-2">
+                <a
+                  class="underline"
+                  href="all4running.nl"
+                  aria-label="lees meer over shoe4africa"
+                  >Lees meer
+                </a>
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 8 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <g clip-path="url(#clip0_582_3778)">
+                    <path
+                      d="M2.40234 1.01666L5.63568 4.25L2.40234 7.48333"
+                      stroke="#191919"
+                      stroke-width="0.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_582_3778">
+                      <rect
+                        width="8"
+                        height="8"
+                        fill="white"
+                        transform="translate(0 0.25)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
